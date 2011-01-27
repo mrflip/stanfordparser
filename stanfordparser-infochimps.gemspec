@@ -5,9 +5,9 @@
 
 Gem::Specification.new do |s|
   s.name = %q{stanfordparser-infochimps}
-  s.version = "2.2.1.s"
+  s.version = "2.2.2"
 
-  s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
+  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["John Wilkinson", "Bill McNeal"]
   s.date = %q{2011-01-27}
   s.description = %q{Ruby wrapper of the Stanford Parser, a NLP parser built in Java.}
@@ -29,6 +29,7 @@ Gem::Specification.new do |s|
     "examples/stanford-sentence-parser.rb",
     "lib/stanfordparser.rb",
     "lib/stanfordparser/java_object.rb",
+    "stanfordparser-infochimps.gemspec",
     "stanfordparser.gemspec",
     "test/test_stanfordparser.rb"
   ]
